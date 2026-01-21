@@ -443,9 +443,9 @@ def plot_metric_cdfs(df, algo, algo_threshold, mnt):
 def main():
 
     mnt = 'relPermML'
-    base_path = '/' #where confluence runs are located
-    output_path = '/' #general output location
-    output_subdir = '' #subfolder for results of that run
+    base_path = '/nas/cee-water/cjgleason/ellie/SWOT/confluence/' #where confluence runs are located
+    output_path = '/nas/cee-water/cjgleason/ellie/SWOT/orbitMS/data/' #general output location
+    output_subdir = 'abcd_perm' #subfolder for results of that run
     
     
     CV_thresh = 0.5
